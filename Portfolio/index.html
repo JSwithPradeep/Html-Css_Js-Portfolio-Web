@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/69e7123e87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/step_by_step-logo-187EF389AF-seeklogo.com.gif" class="logo">
+                <ul  id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Pradeep Singh</span><br> From Delhi</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/thuiux1.jfif" alt="">
+                </div>
+               
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Pradeep Basically i'm from Uttarkhand but i living in Delhi and I have Done my Bachelor and Master with Computer
+                        Science From School Of Computer and Infromation Science(IGNOU Delhi RC-1).I want to become a full Stack Web Application Developer
+                    with Stack knowledge of Data Science. I have done My internship The Choice of India and Adeep It solution pvt Ltd. I worked many web application project in my
+                internship period along such html, css, javaScript, My SQL,Sql, but i want to switch my career on MERN and MS Power BI with Python programming
+            so i'm searching a opportunity for learning and upSkill my self in New Technology </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul class="detail">
+                            <li><span>FrontEnd</span><br>Html,Css, JavaSCript,React</li>
+                            <li><span>BackEnd</span><br>NodeJs,Python</li>
+                            <li><span>DataBase</span><br>MongoDb, Mysql, SQl server,Excel,Advace Excel</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>The choice of India</li>
+                            <li><span>Internship</span><br>Adeep It solution pvt ltd</li>
+                            <li><span>SelfWebDevelopement</span><br>Github.com</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>MCA</span><br>School of Computer and Information Science from (IGNOU Delhi Rc-1)</li>
+                            <li><span>BCA</span><br>School of Computer and Information Science from (IGNOU Delhi Rc-1)</li>
+                            <li><span>Diploma in Computer Application</span><br>ACTC</li>
+                        </ul>
+                     </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------Services---------->
+
+    <div id ="services">
+    <div class="continer">
+        <h1 class="sub-title">My Servicess</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FrontEnd Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nam numquam nisi nemo aliquid harum at, deserunt officia in veniam eveniet quasi voluptatum odit sed nostrum laudantium deleniti a suscipit!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, qui itaque illo adipisci fuga voluptatem ducimus, eius a laudantium nisi dolorem dolores enim autem aperiam saepe, odit maiores ad amet!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2>Back End Devlopment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nam numquam nisi nemo aliquid harum at, deserunt officia in veniam eveniet quasi voluptatum odit sed nostrum laudantium deleniti a suscipit!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, qui itaque illo adipisci fuga voluptatem ducimus, eius a laudantium nisi dolorem dolores enim autem aperiam saepe, odit maiores ad amet!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Database Management</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nam numquam nisi nemo aliquid harum at, deserunt officia in veniam eveniet quasi voluptatum odit sed nostrum laudantium deleniti a suscipit!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, qui itaque illo adipisci fuga voluptatem ducimus, eius a laudantium nisi dolorem dolores enim autem aperiam saepe, odit maiores ad amet!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------Portfolio --------------->
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/thuiux.jfif">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you yo the telented people around the world Download it from plya store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="img/thuiux.jfif">
+                
+                <div class="layer">
+                    <h3>Banking  App</h3>
+                    <p>The app connect you yo the telented people around the world Download it from plya store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="img/thuiux.jfif">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>The app connect you yo the telented people around the world Download it from plya store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+  <!-- -------------Portfolio --------------->
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>psrana055@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8700250093</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>Copy-right Pradeep. Made with: <i class="fa-solid fa-heart"></i> by easy Tutorials</p>
+  </div>
+    <script src="index.js"></script> 
+</body>
+</html>
